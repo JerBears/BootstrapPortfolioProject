@@ -21,14 +21,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Jeremy Sikkens</a>
+      <a class="navbar-brand" href="/">Jeremy Sikkens</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Over mij</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Professioneel</a></li>
+        <li><a href="/">Persoonlijk</a></li>
+        <li class="menu-item-far-right"><a href="/">Contact</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
@@ -43,79 +45,185 @@
 
 
 <!--Hier begint de Carousel! -->
-<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
-    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Dit ben ik</h1>
-          <p>Mijn naam is Jeremy Sikkens, Growth Hacker bij TransIP.</p>
+  <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+      <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Growth Hacking</h1>
+            <p>Sneller groeien door slim gebruik van technologie.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>(Web) Analytics</h1>
+            <p>Data ten grondslag van elke optimalisatie.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Online marketingkanalen</h1>
+            <p>Een continue stroom aan kwalitatief verkeer.</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="item">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Growth Hacking als procesmatige methode voor groei.</h1>
-          <p>Van product/ market fit naar message/ audience fit tot het maximaliseren van groei.</p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Als je het kunt meten, kun je het verbeteren.</h1>
-          <p>Data ligt altijd ten grondslag van elke optimalisatie.</p>
-        </div>
-      </div>
-    </div>
+    <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Vorige</span>
+    </a>
+    <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Volgende</span>
+    </a>
   </div>
-  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Vorige</span>
-  </a>
-  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Volgende</span>
-  </a>
-</div>
 <!--Hier eindigt de Carousel! -->
 
+<!--Hier begint Professional! -->
 <div class="marketing">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-          <span class="fa fa-hand-spock-o fa-10x"></span>
-            <h2>Geekiness +1</h2>
-              <p>Lui, op een goede manier.</p>
-                <p> Meer automatiseren == meer beter.</p>
+      <div class="col-md-6">
+        <img src="images/foto jeremy.jpg" class="img-fluid" alt="Jeremy Sikkens" style="width:100%">
       </div>
-      <div class="col-md-4">
-          <span class="fa fa-space-shuttle fa-10x"></span>
-            <h2>Snelle groei</h2>
-              <p>Combineer product/ market fit met audience/ message fit en je groei is ongeremd.</p>
-      </div>
-      <div class="col-md-4">  
-          <span class="fa fa-heart fa-10x"></span>
-            <h2>Passie</h2>
-              <p>Geen dag gaat voorbij zonder iets te leren, automatiseren of te optimaliseren.</p>
-      </div>
-    </div>
-  </div>  
-</div>
-
-<div class="footer">
-  <div class="container">
-    <h3>Neem contact op</h3>
-    <p>Je kunt me bereiken via <a target="_blank" href="jsikkens@transip.nl">jsikkens@transip.nl</a> of +31 (0) 6 54154603</p>
+        <div class="col-md-6 pro-passies-block">
+          <h1>Professionele Passies</h1>
+<!-- Beginning of block item -->           
+           <div class="passie-block">  
+              <div class="col-md-3 icon-row">
+                <span class="fa fa-space-shuttle fa-10x"></span>
+              </div>
+              <div class="col-md-1 icon-row">
+              </div>
+              <div class="col-md-8 icon-row">
+                <h2>Growth Hacking</h2>
+                <p>Combineer product/ market fit met audience/ message fit en je groei is ongeremd.</p>
+            </div>
+          </div>
+<!-- End of block item -->
+<!-- Beginning of block item -->      
+           <div class="passie-block">  
+              <div class="col-md-8 icon-row">
+                <h2>(web) Analytics</h2>
+                <p>Combineer product/ market fit met audience/ message fit en je groei is ongeremd.</p>
+              </div>
+              <div class="col-md-1 icon-row">
+              </div>
+              <div class="col-md-3 icon-row">
+                <span class="fa fa-space-shuttle fa-10x"></span>
+            </div>
+          </div>
+<!-- End of block item -->  
+<!-- Beginning of block item -->   
+          <div class="col-md-12">        
+           <div class="passie-block">  
+              <div class="col-md-3 icon-row">
+                <span class="fa fa-space-shuttle fa-10x"></span>
+              </div>
+              <div class="col-md-1 icon-row">
+              </div>
+              <div class="col-md-8 icon-row">
+                <h2>Growth Hacking</h2>
+                <p>Combineer product/ market fit met audience/ message fit en je groei is ongeremd.</p>
+            </div>
+          </div>
+            <div class="button-div">
+              <button type="button" class="btn btn-outline-primary">Lees meer</button>
+            </div>
+        </div>
+<!-- End of block item -->
+       </div>
+    </div>  
   </div>
 </div>
+<!--Hier eindigt Marketing! -->
+
+<div class="col-md-12">
+  <div>
+
+  </div>
+</div>
+
+<!--Hier begint Persoonlijk! -->
+<div class="marketing">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6 pro-passies-block">
+        <div class="intro-col">
+          <h1>Persoonlijke Passies</h1>
+        </div>
+<!-- Beginning of block item -->           
+           <div class="passie-block">  
+              <div class="col-md-3 icon-row">
+                <span class="fa fa-space-shuttle fa-10x"></span>
+              </div>
+              <div class="col-md-1 icon-row">
+              </div>
+              <div class="col-md-8 icon-row">
+                <h2>Growth Hacking</h2>
+                <p>Combineer product/ market fit met audience/ message fit en je groei is ongeremd.</p>
+            </div>
+          </div>
+<!-- End of block item -->
+<!-- Beginning of block item -->      
+           <div class="passie-block">  
+              <div class="col-md-8 icon-row">
+                <h2>(web) Analytics</h2>
+                <p>Combineer product/ market fit met audience/ message fit en je groei is ongeremd.</p>
+              </div>
+              <div class="col-md-1 icon-row">
+              </div>
+              <div class="col-md-3 icon-row">
+                <span class="fa fa-space-shuttle fa-10x"></span>
+            </div>
+          </div>
+<!-- End of block item -->  
+<!-- Beginning of block item -->   
+          <div class="col-md-12">        
+           <div class="passie-block">  
+              <div class="col-md-3 icon-row">
+                <span class="fa fa-space-shuttle fa-10x"></span>
+              </div>
+              <div class="col-md-1 icon-row">
+              </div>
+              <div class="col-md-8 icon-row">
+                <h2>Growth Hacking</h2>
+                <p>Combineer product/ market fit met audience/ message fit en je groei is ongeremd.</p>
+            </div>
+          </div>
+            <div class="button-div">
+              <button type="button" class="btn btn-outline-primary">Lees meer</button>
+            </div>
+        </div>
+<!-- End of block item -->
+       </div>
+      <div class="col-md-6">
+        <img src="images/foto jeremy skydiving.jpg" class="img-fluid-yes" alt="Jeremy Sikkens" style="width:100%">
+      </div>
+    </div>  
+  </div>
+</div>
+<!--Hier eindigt Marketing! -->
+
+<!--Hier begint Footer! -->
+  <div class="footer">
+    <div class="container">
+      <h3>Neem contact op</h3>
+      <p>Je kunt me bereiken via <a class="email-link" target="_blank" href="mailto:jsikkens@transip.nl">dit emailadres</a> of +31 (0) 6 54154603</p>
+    </div>
+  </div>
+</div>
+<!--Hier eindigt Footer! -->
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
