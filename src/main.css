@@ -10,7 +10,7 @@
 
 /* Carousel base class */
 .carousel {
-  height: 240px;
+  height: 270px;
   margin-bottom: 0px;
 }
 
@@ -19,9 +19,13 @@
   z-index: 10;
 }
 
+.carousel-caption .fa {
+  display: inline-block;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 240px;
+  height: 260px;
   background-color: #13547a;
 }
 .carousel-inner > .item > img {
@@ -39,6 +43,7 @@
     margin-bottom: 30px;
     font-size: 21px;
     line-height: 1.4;
+    display: inline-block;
   }
 
 }
@@ -69,6 +74,10 @@
  font-size: 20px;
 }
 
+.passie-block {
+  margin-top: 100px;
+}
+
 .fa-10x {
   font-size: 110px;
   padding-top: 0px;
@@ -84,8 +93,9 @@
 -------------------------------------------------- */
 
 .img-fluid-yes {
-  padding-top: 94px;
+  padding-top: 0px;
 }
+
 
 /* Button 
 -------------------------------------------------- */
